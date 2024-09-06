@@ -38,7 +38,7 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
   # Sidebar settings
-  sidebar_about_description = "Software Developer, Open Source Enthusiast and Life Adventurer"
+  sidebar_about_description = "Life adventurer"
   #sidebar_avatar = "img/Profilepicture.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
   sidebar_avatar = "img/Profilepicture.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
@@ -107,13 +107,13 @@ home = ["HTML", "RSS", "Algolia"]
   title = "unsplash"
   href = "https://unsplash.com"
   
-  [[params.addtional_menus]]
+  [[params.additional_menus]]
   title =  "ARCHIVE"
   href =  "/archive/"
-  [[params.addtional_menus]]
-  title =  "NOTES"
-  href =  "/notes/"
-  [[params.addtional_menus]]
+  #[[params.additional_menus]]
+  #title =  "NOTES"
+  #href =  "/notes/"
+  [[params.additional_menus]]
   title =  "ABOUT"
   href =  "/about/"
 
