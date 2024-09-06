@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michiel&#39;s Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Michiel&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Title</title>
+      <link>http://localhost:1313/post/second/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/second/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clean White Theme for Hugo</title>
+      <link>http://localhost:1313/post/first/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/first/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clean White Theme for Hugo</title>
+      <link>http://localhost:1313/post/readme/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/readme/</guid>
+      <description>Clean White Theme for Hugo CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live demo site using this theme. It is based on huxblog Jekyll Theme and Clean Blog Jekyll Theme. These two upstream projects have done awesome jobs to create a blog theme, what I&amp;rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>About Me Huabing Zhao is a software architect, an Istio Member and an ONAP PTL. He has a solid experience in the information and telecommunication technology industry for more than 17 years. Throughout his career, he has built a number of large-scale, cross-country software systems, most of them are still running in production. He loves open source and has been contributing to various open source projects, he is a member</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/</guid>
+      <description>Go 语言学习笔记 Envoy 学习笔记</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/search/placeholder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/search/placeholder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Posts Archive</title>
+      <link>http://localhost:1313/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
