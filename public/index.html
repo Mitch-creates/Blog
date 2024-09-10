@@ -193,8 +193,8 @@
 	
         <div class="post-content-preview">
 	
-            
-       
+            description?
+        
         </div>
     </a>
     <p class="post-meta">
@@ -220,13 +220,8 @@
 	
         <div class="post-content-preview">
 	
-            <h1 id="clean-white-theme-for-hugo">Clean White Theme for Hugo</h1>
-<p>CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live <a href="https://zhaohuabing.com">demo site</a> using this theme.</p>
-<p>It is based on <a href="https://github.com/Huxpro/huxpro.github.io">huxblog Jekyll Theme</a>
-and <a href="https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll">Clean Blog Jekyll Theme</a>.</p>
-<p>These two upstream projects have done awesome jobs to create a blog theme, what I&rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I&rsquo;d like to make it as simple as possible and only focus on blog purpose, at least for now.
-While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it.</p>
-       
+            CleanWhite is a clean, elegant, but fully functional blog theme for Hugo.
+        
         </div>
     </a>
     <p class="post-meta">
@@ -494,30 +489,28 @@ While I created this theme, I followed the Hugo theme best practice and tried to
 <script type="text/javascript">
     function generateCatalog(selector) {
 
-        
-        
-        
-        
-            _containerSelector = 'div.post-container'
-        
-
-        
-        var P = $(_containerSelector), a, n, t, l, i, c;
+        var P = $('div.post-container'),
         a = P.find('h1,h2,h3,h4,h5,h6');
 
-        
-        $(selector).html('')
+    $(selector).html('');
+
+    a.each(function (index) {
+        var n = $(this).prop('tagName').toLowerCase(),
+            i = $(this).prop('id');
 
         
-        a.each(function () {
-            n = $(this).prop('tagName').toLowerCase();
-            i = "#" + $(this).prop('id');
-            t = $(this).text();
-            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+        if (!i) {
+            i = 'heading-' + index;
+            $(this).attr('id', i);
+        }
+
+        var t = $(this).text(),
+            c = $('<a href="#' + i + '" rel="nofollow">' + t + '</a>'),
             l = $('<li class="' + n + '_nav"></li>').append(c);
-            $(selector).append(l);
-        });
-        return true;
+        
+        $(selector).append(l);
+    });
+    return true;
     }
 
     generateCatalog(".catalog-body");

@@ -472,30 +472,28 @@
 <script type="text/javascript">
     function generateCatalog(selector) {
 
-        
-        
-        
-        
-            _containerSelector = 'div.post-container'
-        
-
-        
-        var P = $(_containerSelector), a, n, t, l, i, c;
+        var P = $('div.post-container'),
         a = P.find('h1,h2,h3,h4,h5,h6');
 
-        
-        $(selector).html('')
+    $(selector).html('');
+
+    a.each(function (index) {
+        var n = $(this).prop('tagName').toLowerCase(),
+            i = $(this).prop('id');
 
         
-        a.each(function () {
-            n = $(this).prop('tagName').toLowerCase();
-            i = "#" + $(this).prop('id');
-            t = $(this).text();
-            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+        if (!i) {
+            i = 'heading-' + index;
+            $(this).attr('id', i);
+        }
+
+        var t = $(this).text(),
+            c = $('<a href="#' + i + '" rel="nofollow">' + t + '</a>'),
             l = $('<li class="' + n + '_nav"></li>').append(c);
-            $(selector).append(l);
-        });
-        return true;
+        
+        $(selector).append(l);
+    });
+    return true;
     }
 
     generateCatalog(".catalog-body");

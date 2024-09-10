@@ -21,9 +21,9 @@
     
 
     
-    <meta name="description" content="A place where I&#39;ll share every detail of my journey to become a better person">
-    <meta property="og:description" content="A place where I&#39;ll share every detail of my journey to become a better person" />
-    <meta property="twitter:description" content="A place where I&#39;ll share every detail of my journey to become a better person" />
+    <meta name="description" content="description?">
+    <meta property="og:description" content="description?" />
+    <meta property="twitter:description" content="description?" />
     
 
     
@@ -200,7 +200,47 @@
                 post-container">
 
                 
-                
+                <div id="custom-section">
+  <h1>Custom Section Header</h1>
+  <p>This is a paragraph with custom styling.</p>
+</div>
+<div>
+<p>Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+<h1>Custom ddddddd Header</h1>
+</p>
+</div>
+
 
                 
                 
@@ -446,30 +486,28 @@
 <script type="text/javascript">
     function generateCatalog(selector) {
 
-        
-        
-        
-        
-            _containerSelector = 'div.post-container'
-        
-
-        
-        var P = $(_containerSelector), a, n, t, l, i, c;
+        var P = $('div.post-container'),
         a = P.find('h1,h2,h3,h4,h5,h6');
 
-        
-        $(selector).html('')
+    $(selector).html('');
+
+    a.each(function (index) {
+        var n = $(this).prop('tagName').toLowerCase(),
+            i = $(this).prop('id');
 
         
-        a.each(function () {
-            n = $(this).prop('tagName').toLowerCase();
-            i = "#" + $(this).prop('id');
-            t = $(this).text();
-            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+        if (!i) {
+            i = 'heading-' + index;
+            $(this).attr('id', i);
+        }
+
+        var t = $(this).text(),
+            c = $('<a href="#' + i + '" rel="nofollow">' + t + '</a>'),
             l = $('<li class="' + n + '_nav"></li>').append(c);
-            $(selector).append(l);
-        });
-        return true;
+        
+        $(selector).append(l);
+    });
+    return true;
     }
 
     generateCatalog(".catalog-body");
