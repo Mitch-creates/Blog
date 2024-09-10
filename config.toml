@@ -2,13 +2,16 @@ baseurl = "https://michielsblog.com"
 title = "Michiel's Blog"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
-# Enable comments by entering your Disqus shortname
-disqusShortname = ""
-googleAnalytics = ""
 preserveTaxonomyNames = true
 paginate = 5 #frontpage pagination
 hasCJKLanguage = true
 ShowReadingTime = true
+
+[services]
+  [services.googleAnalytics]
+    id = ""
+  [services.disqus]
+    shortname = ""
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
