@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Porn"
-subtitle: "Real talk"
+subtitle: "An Insight on an Unspoken Struggle: Why We Need to Talk About Porn Addiction"
 date: 2024-01-09
 author: "Michiel Van de Vyver"
 image: "img/backgroundLaos.jpg"
@@ -19,7 +19,7 @@ description: "Considering this is my first blog post, it will be rather heavy. B
 <p>The ease of access to porn has only grown over time. Digital technology has eliminated nearly all production, distribution, and consumption barriers in the past few decades. The advent of the internet in the 1990s revolutionized access, shifting from paid content to free, user-generated tube sites, marking a significant shift towards its widespread and anonymous consumption. Pornhub remains a digital giant in 2023, with over 5 billion monthly site visits, making it the world's most-visited adult website.</p>
 <p>It has never been this easy to access porn. You can access it on every device; it's affordable (free if you want), and you can do it anonymously. These factors, referred to as the 'triple-A influence' (Accessibility, Affordability, and Anonymity), make it easy to fall for. Although everybody can easily access it, it doesn't mean everybody overconsumes it.</p>
 <figure>
-   <img src="/img/01_phone_addiction.jpg" alt="Accessibility, affordability and anonymity make it easy to fall for" class="bp01_img_01">
+   <img src="/img/01_phone_addiction.jpg" alt="Accessibility, affordability and anonymity make it easy to fall for" class="img-post">
    </figure>
 <h2>What are the consequences of porn addiction?</h2>
 <p>But how can you tell when it's becoming a problem? An easy way to know you're in the danger zone is, for example, when you need it to fall asleep or lose focus in between tasks and need to unload before being able to proceed. In case you're wondering if the amount of porn you consume is problematic, there is a test I found that you can do. This test involves self-reflection and honesty about your habits and feelings towards porn. The <a href="https://www.tarcrecovery.com/test/internet-sex">Internet sex screening test</a> (ISST) is a 25-question test and doesn't take much of your time.</p>
@@ -28,7 +28,7 @@ description: "Considering this is my first blog post, it will be rather heavy. B
 <p>This issue is particularly alarming among younger men. The study showed that 23% of porn-using men under the age of 35 reported some level of sexual dysfunction, which is the age at which men are supposed to be in their sexual prime.</p>
 <p>However, the effects don't end with the individual; sadly, the consequences affect them and their romantic partners, regardless of gender. Erectile dysfunction could cause a dent in their partner's self-esteem and their sexual pleasure. Some meaningful relationships are ended because of the shame and the loss of their romantic connection.</p>
 <figure>
-   <img src="/img/01_bad_relationship.jpg" alt="We underestimate the impact on our relationship" class="bp01_img_02">
+   <img src="/img/01_bad_relationship.jpg" alt="We underestimate the impact on our relationship" class="img-post">
    </figure>
 <p>I'm certain porn affected the outcome of my previous relationship. When you're easily aroused by the sound of a woman moaning through your headphones but have a hard time maintaining an erection while experiencing physical intimacy with your partner, you know there's something wrong. Then again, knowing what you're doing is damaging yourself( and your partner!) is a crucial first step. Acting upon it is the most significant effort.</p>
 <h2>The escalating nature of porn</h2>
