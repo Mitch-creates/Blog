@@ -20,7 +20,7 @@ home = ["HTML", "RSS", "Algolia"]
   header_image = "/img/Laosclouds.jpg"
   SEOTitle = "Michiel's Blog"
   description = "A place where I'll share every detail of my journey to become a better person"
-  keyword = "Life, Michiel, Van de Vyver, Michiel Blog, Psychology, Addiction, Blogging, Travel"
+  keyword = "Life, Michiel, Van de Vyver, Michiel Blog, Psychology, Addiction, Blogging, Travel, Honesty, Inspiration"
   slogan = "Learn  Give  Experience"
   upstreamAttribution = true
   ShowReadingTime = true
@@ -41,7 +41,7 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
   # Sidebar settings
-  sidebar_about_description = "Life adventurer"
+  sidebar_about_description = "Life adventurer and Mental health advocate"
   #sidebar_avatar = "img/Profilepicture.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
   sidebar_avatar = "img/Profilepicture.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
@@ -61,10 +61,10 @@ home = ["HTML", "RSS", "Algolia"]
   twikoo_env_id = ""
 
   #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
-  reward = true 
+  reward = false 
   # reward_guide = "如果这篇文章对你有用,请随意打赏" 
 
-  friends = true
+  friends = false
   bookmarks = false
   about_me = true
 
@@ -129,6 +129,9 @@ notAlternative = true
 [params.algolia]
 vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
 params = ["categories", "tags"] 
+
+[permalinks]
+  post = "/:slug/"
 
 [markup]
   [markup.tableOfContents]
