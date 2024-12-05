@@ -74,10 +74,17 @@
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="{{ "css/font-awesome.all.min.css" | relURL }}">
 
-    <!--  Custom CSS  -->
-    {{ range .Site.Params.custom_css -}}
-    <link rel="stylesheet" href="{{ . | absURL }}">
-    {{- end }}
+    <!-- Custom CSS -->
+{{ range .Site.Params.custom_css }}
+{{ if not (hasPrefix . "http") }} 
+    <!-- For local CSS files -->
+    {{ $css := resources.Get . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{ else }}
+    <!-- For external CSS URLs -->
+    <link rel="stylesheet" href="{{ . }}">
+{{ end }}
+{{ end }}
 
     <!-- jQuery -->
     <script src="{{ "js/jquery.min.js" | relURL }}"></script>
