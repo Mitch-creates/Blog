@@ -9,7 +9,7 @@ ShowReadingTime = true
 
 [services]
   [services.googleAnalytics]
-    id = ""
+    id = "G-2XX0071Y3S"
   [services.disqus]
     shortname = ""
 
