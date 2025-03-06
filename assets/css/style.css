@@ -22,6 +22,20 @@
 
 }
 
+.about p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      line-height: 26px;
+      color: #444;
+      padding-bottom: 20px;
+}
+
+.about h1,.about h2,.about h3,.about h4, .about h5 {
+      font-family: 'Lora', sans-serif;
+      font-weight: 800;
+      color: #111;
+}
+
 .cursive {
       font-style: italic;
 }
