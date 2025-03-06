@@ -2,7 +2,7 @@
 layout: post
 title: "Porn"
 subtitle: "An Insight on an Unspoken Struggle: Why We Need to Talk About Porn Addiction"
-date: 2024-01-09
+date: 2024-12-15
 author: "Michiel Van de Vyver"
 image: "img/backgroundLaos.jpg"
 slug: "dealing-with-porn-addiction"
